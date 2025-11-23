@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Auto Install</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #00ff00;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        pre {
+            white-space: pre;
+            text-align: center;
+            font-size: 14px;
+        }
+        a.download-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #00ff00;
+            color: #1e1e1e;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a.download-btn:hover {
+            background-color: #00cc00;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+       ___           ___                 
+     /\  \         /\  \          ___   
+    /::\  \       /::\  \        /\  \  
+   /:/\ \  \     /:/\:\  \       \:\  \ 
+  _\:\~\ \  \   /::\~\:\  \      /::\__\
+ /\ \:\ \ \__\ /:/\:\ \:\__\  __/:/\/__/
+ \:\ \:\ \/__/ \/__\:\/:/  / /\/:/  /   
+  \:\ \:\__\        \::/  /  \::/__/    
+   \:\/:/  /        /:/  /    \:\__\    
+    \::/  /        /:/  /      \/__/    
+     \/__/         \/__/                 
+    </pre>
+
+    <a class="download-btn" href="yourfile.zip" download>Download</a>
+</body>
+</html>
