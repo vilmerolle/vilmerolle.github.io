@@ -1,8 +1,3 @@
-# DOOM Portable / Install Launcher (PowerShell)
-# Uses Chocolate Doom + DOOM Shareware (doom1.wad)
-# Legal note: This script ONLY downloads the freely distributable shareware WAD.
-# Run PowerShell as normal user (no admin required).
-
 $ErrorActionPreference = 'Stop'
 
 function Ask-Choice($prompt, $choices) {
