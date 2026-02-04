@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>vilmerolle</title>
+  <title>vilmer321</title>
   <style>
     html,body {
       height: 100%;
@@ -64,30 +64,34 @@
 </head>
 <body>
   <pre id="ascii-art">
-                                                                           .-'''-.                                   
-                      .---.                                               '   _    \  .---..---.                     
- .----.     .----..--.|   | __  __   ___         __.....__              /   /` '.   \ |   ||   |      __.....__      
-  \    \   /    / |__||   ||  |/  `.'   `.   .-''         '.           .   |     \  ' |   ||   |  .-''         '.    
-   '   '. /'   /  .--.|   ||   .-.  .-.   ' /     .-''"'-.  `. .-,.--. |   '      |  '|   ||   | /     .-''"'-.  `.  
-   |    |'    /   |  ||   ||  |  |  |  |  |/     /________\   \|  .-. |\    \     / / |   ||   |/     /________\   \ 
-   |    ||    |   |  ||   ||  |  |  |  |  ||                  || |  | | `.   ` ..' /  |   ||   ||                  | 
-   '.   `'   .'   |  ||   ||  |  |  |  |  |\    .-------------'| |  | |    '-...-'`   |   ||   |\    .-------------' 
-    \        /    |  ||   ||  |  |  |  |  | \    '-.____...---.| |  '-                |   ||   | \    '-.____...---. 
-     \      /     |__||   ||__|  |__|  |__|  `.             .' | |                    |   ||   |  `.             .'  
-      '----'          '---'                    `''-...... -'   | |                    '---''---'    `''-...... -'    
-                                                               |_|                                                   
+                                                                                                    __       
+                      .---.                                         ..-'''-.         .-''-.    ...-'  |`.    
+ .----.     .----..--.|   | __  __   ___         __.....__          \.-'''\ \      .' .-.  )   |      |  |   
+  \    \   /    / |__||   ||  |/  `.'   `.   .-''         '.               | |    / .'  / /    ....   |  |   
+   '   '. /'   /  .--.|   ||   .-.  .-.   ' /     .-''"'-.  `. .-,.--.  __/ /    (_/   / /       -|   |  |   
+   |    |'    /   |  ||   ||  |  |  |  |  |/     /________\   \|  .-. ||_  '.         / /         |   |  |   
+   |    ||    |   |  ||   ||  |  |  |  |  ||                  || |  | |   `.  \      / /       ...'   `--'   
+   '.   `'   .'   |  ||   ||  |  |  |  |  |\    .-------------'| |  | |     \ '.    . '        |         |`. 
+    \        /    |  ||   ||  |  |  |  |  | \    '-.____...---.| |  '-       , |   / /    _.-')` --------\ | 
+     \      /     |__||   ||__|  |__|  |__|  `.             .' | |           | | .' '  _.'.-''  `---------'  
+      '----'          '---'                    `''-...... -'   | |          / ,'/  /.-'_.'                   
+                                                               |_|  -....--'  //    _.'                      
+                                                                    `.. __..-'( _.-'                         
   </pre>
 
   <div class="social-buttons" id="social-buttons">
     <a href="https://steamcommunity.com/id/vilmer321" target="_blank" class="btn steam-btn">
       <img src="steam.png" alt="Steam">
     </a>
-    <a href="https://github.com/vilmerolle" target="_blank" class="btn github-btn">
+    <a href="https://github.com/vilmer321" target="_blank" class="btn github-btn">
       <img src="github.png" alt="GitHub">
     </a>
   </div>
 
-  <iframe id="konami-iframe" src="https://secretgamesecretverysecretdontlookplz.surge.sh/secret/verysecret/dontlookhere/noooyourehere/game/"></iframe>
+  <iframe
+    id="konami-iframe"
+    src="https://secretgamesecretverysecretdontlookplz.surge.sh/secret/verysecret/dontlookhere/noooyourehere/game/">
+  </iframe>
 
   <script>
     const konamiCode = [38,38,40,40,37,39,37,39,66,65];
@@ -123,11 +127,13 @@
         if(moveX || moveY){
           posX += moveX;
           posY += moveY;
-          ascii.style.transform = `translate(calc(-50% + ${posX}px), calc(-50% + ${posY}px))`;
+          ascii.style.transform =
+            `translate(calc(-50% + ${posX}px), calc(-50% + ${posY}px))`;
           setTimeout(() => {
             posX -= moveX;
             posY -= moveY;
-            ascii.style.transform = `translate(calc(-50% + ${posX}px), calc(-50% + ${posY}px))`;
+            ascii.style.transform =
+              `translate(calc(-50% + ${posX}px), calc(-50% + ${posY}px))`;
           }, 150);
         }
       }
@@ -135,4 +141,3 @@
   </script>
 </body>
 </html>
-
